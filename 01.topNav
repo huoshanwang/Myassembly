@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>mynav 组件</title>
+	<style type="text/css" media="screen">
+		
+		body,h1,h2,ul {
+			margin: 0;
+			padding: 0;
+		}
+		
+		body {background-color: #fff;}
+		ul {list-style: none;}
+		a {text-decoration: none;}
+		
+		#nav {
+			height: 70px;
+			background-color: #333;
+		}
+		
+		#nav .center {
+
+			width: 1263px;
+			margin: 0 auto;
+		}
+
+		#nav .logo {
+			width: 240px;
+			height: 70px;
+			background-color: #f60;
+			float: left;
+			text-indent: -9999px;
+		}
+
+		#nav .link {
+			width: 650px;
+			height: 70px;
+			line-height: 70px;
+			float: right;
+			font-size: 18px;
+
+		}
+		#nav .none {display: none;}
+		#nav .link li  {
+			width: 120px;
+			height: 70px;
+			text-align: center;
+			float: left;
+		}
+		#nav .link a {
+			display: block;
+			color: #eee;
+		}
+		#nav .active a,
+		#nav .link a:hover {
+			background-color: #000; 
+		}
+
+	</style>
+</head>
+<body>
+	<header id="nav">
+		<div class="center">
+			<h1 class="logo">兵山家园</h1>
+			<nav class="link">
+			    <h2 class="none">网站导航</h2>
+				<ul>
+					<li class="active"><a href="###">home</a></li>
+					<li><a href="###">home</a></li>
+					<li><a href="###">home</a></li>
+					<li><a href="###">home</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
