@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>跨浏览器获取元素样式</title>
+</head>
+<body>
+    <script>
+        function getStyle(element,attr){
+            var value;
+            if(typeof window.getComputedStyle != "undefined"){ //w3c
+                value = window.getComputedStyle(element,null)[attr];
+            } else if(typeof element.currentStyle != "undefined"){//IE
+                value = element.currentStyle[attr];
+            }
+            return value;
+        }
+    </script>
+</body>
+</html>
